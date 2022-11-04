@@ -1,8 +1,62 @@
 body {
     margin: 0;
+    background-image: url(img/goal.jpg);
+    background-size: cover;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 60%;
+    margin: 5% auto;
+    border: 2px solid #000000;
+    border-radius: 5%;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: #EEEEEE;
+    font-weight: 400;
+}
+
+h1 {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: auto;
+    font-style: normal;
+    line-height: 127px;
+    border: 1px solid #000000;
+    border-radius: 5%;
+}
+
+button {
+    background: none;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    color: #9AABD8;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5%;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 200;
+}
+
+#new-game {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    color: darkgoldenrod;
+    background: none;
+    border: 1px solid;
+    border-radius: 5%;
+    font-weight: 400;
+    font-weight: 800;
 }
